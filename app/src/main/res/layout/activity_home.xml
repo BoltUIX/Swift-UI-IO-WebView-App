@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/parent"
+    android:keepScreenOn="true"
+    android:layout_height="match_parent"
+    tools:context="com.swiftui.io.HomeActivity">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/progress_bar"
+        android:scaleType="centerInside"
+        android:layout_gravity="center"
+        android:src="@drawable/loading"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+            />
+
+
+
+    <LinearLayout
+        android:focusable="false"
+        android:clickable="false"
+        android:id="@+id/no_internet"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:src="@drawable/no_internet"
+            android:id="@+id/loader"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/intro_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No internet"
+            android:textAppearance="@style/TextAppearance.Material3.TitleLarge"
+            android:textStyle="bold"
+            app:fontFamily="@font/sorts_mill_goudy" />
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/intro_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:fontFamily="@font/sorts_mill_goudy"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginBottom="35dp"
+            android:text="Please check your internet connection or try again later."
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/retry"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:letterSpacing=".1"
+            android:textStyle="bold"
+            app:elevation="20dp"
+            android:text="Retry"
+            android:clickable="true"
+            app:icon="@drawable/baseline_try_24"
+            app:iconTint="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:rippleColor="@android:color/black"
+            app:backgroundTint="@null"
+            android:background="@drawable/gradient"
+            android:textColor="@android:color/white"
+            android:focusable="true" />
+
+
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"/>
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

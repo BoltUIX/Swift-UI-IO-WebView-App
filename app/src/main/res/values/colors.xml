@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="backgroundTint">#7b1fa2</color>
+    <color name="actionTextColor">#ffffff</color>
+</resources>
