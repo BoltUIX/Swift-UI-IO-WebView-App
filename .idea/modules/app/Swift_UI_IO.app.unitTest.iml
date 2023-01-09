@@ -32,13 +32,13 @@
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/17e6dfaafbc51d5dd58687d48f1957cf/transformed/material-1.7.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/61cb6906f14300cde39dd98a3a3e1aaa/transformed/constraintlayout-2.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/0b00327bbae6adf19b4b3d1a41a89cf9/transformed/appcompat-1.5.1-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/42bf38dc077352d37abad06aa4ab2c3b/transformed/play-services-ads-21.3.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/93779a01fb4dff795b5ba471c89390e2/transformed/play-services-ads-21.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/bcab339fbd941580b9430659ee4b3ea9/transformed/app-update-2.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/d047aded7132a5caa99a9e9d13d342b6/transformed/play-services-appset-16.0.1-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3f745ee6820da747c2bcbda41bd748ce/transformed/play-services-base-18.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/f2ded6c07a1ac4b683f3b780092fa1d9/transformed/play-services-tasks-18.0.2-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/4022dedc0a21e713a0a463f1f006d867/transformed/play-services-ads-lite-21.3.0-api.jar</arg>
-                <arg>$USER_HOME$/.gradle/caches/transforms-3/945891232da421d9d1fd6efc7e3f91b8/transformed/play-services-ads-base-21.3.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/a090aff03aeda8655a8974664ae829a4/transformed/play-services-ads-lite-21.4.0-api.jar</arg>
+                <arg>$USER_HOME$/.gradle/caches/transforms-3/2e58ad6af1a64ff0617275d69d31f9ba/transformed/play-services-ads-base-21.4.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/8e49494a73e40811393b49a836bbcda3/transformed/user-messaging-platform-2.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/445390844074bf6bd91a008e09f1d947/transformed/play-services-ads-identifier-18.0.0-api.jar</arg>
                 <arg>$USER_HOME$/.gradle/caches/transforms-3/3f18e7a5a8c6fd8688469c3d1c731b37/transformed/play-services-measurement-sdk-api-20.1.2-api.jar</arg>
@@ -172,11 +172,11 @@
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-tasks:18.0.2@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.play:app-update:2.0.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.play:core-common:2.0.2@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads:21.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads:21.4.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.browser:browser:1.4.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads-base:21.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads-base:21.4.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads-identifier:18.0.0@aar" level="project" />
-    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads-lite:21.3.0@aar" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-ads-lite:21.4.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.work:work-runtime:2.7.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: androidx.startup:startup-runtime:1.1.1@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: com.google.android.gms:play-services-measurement-sdk-api:20.1.2@aar" level="project" />
